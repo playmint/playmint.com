@@ -27,7 +27,7 @@ const Index = () => {
             </p>
 
             <p>
-              Around that time games were being built that used a blockchain token as the technology behind in-game currencies and game items. We wanted to go further with that idea and asked whether it was possible to put not just game items but the games themselves on a blockchain. Could we create the gaming equivalent of Bitcoin: created by someone but owned by no-one, free from centralised control, permanent and immutable?
+              Around that time, games were being built that used a blockchain token as the technology behind in-game currencies and in-game items. We wanted to go further with that idea and asked whether it was possible to put not just game items but the games themselves on a blockchain. Could we create the gaming equivalent of Bitcoin: created by someone but owned by no-one, free from centralised control, permanent and immutable?
             </p>
 
             <p>
@@ -68,13 +68,13 @@ const Index = () => {
             </figure>
 
             <p>
-              As we look back on these projects, it's notable that in the few places where we used a web2 service like imgur or Azure, the game has started to break, but the game code, the players and the worlds they created will all live on forever. A testament to the ethos we were striving for.
+              As we look back on these projects, it's notable that in the few places where we used a web2 service like imgur or Azure the game has started to break, but the game code, the players and the worlds they created will all live on forever. A testament to the ethos we were striving for.
             </p>
 
             <Separator className="my-8" />
 
             <p className="font-medium">
-              In late 2025 Playmint was acquired by the world's leading on-chain game infrastructure company, <a href="https://cartridge.gg" target="_blank" rel="noopener noreferrer" className="text-primary underline decoration-2 underline-offset-2 hover:decoration-primary/70">Cartridge</a>, a team that shared the philosophy and ambition that Playmint was with in 2021.
+              In late 2025 Playmint was acquired by the world's leading on-chain game infrastructure company, Cartridge. A team that shared the philosophy and ambition that Playmint was founded with in 2021. <a href="https://cartridge.gg" target="_blank" rel="noopener noreferrer" className="text-primary underline decoration-2 underline-offset-2 hover:decoration-primary/70">Cartridge</a>, a team that shared the philosophy and ambition that Playmint was with in 2021.
             </p>
           </div>
         </article>
