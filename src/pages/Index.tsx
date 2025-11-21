@@ -27,7 +27,7 @@ const Index = () => {
             </p>
 
             <p>
-              Our first published title was a dungeon game called The Crypt, which proved to ourselves and the world that a game could run on a programmable blockchain. It was more popular than we could have hoped and gave us conviction to follow the path further. We identified that cryptography techniques such as client-side proofs could be used to safely offload work from the blockchain itself.
+              Our first published title was a dungeon game called <a href="https://www.youtube.com/watch?v=BEEmhrM6YdQ" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">The Crypt</a>, which proved to ourselves and the world that a game could run on a programmable blockchain. It was more popular than we could have hoped and gave us conviction to follow the path further. We identified that cryptography techniques such as <a href="https://paragraph.com/@5p0rt5beard/client-side-proofs" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">client-side proofs</a> could be used to safely offload work from the blockchain itself.
             </p>
 
             <p>
@@ -35,11 +35,11 @@ const Index = () => {
             </p>
 
             <p>
-              Our second title was Downstream, an ambitious on-chain game that allowed anyone playing to add code to expand the game-world for every player inside it. Roblox had built a platform on a similar idea, but their centralised approach meant that the games there were creatively and commercially limited by what Roblox wanted to see on their platform. Downstream was more like the internet: a protocol that no one owned where people were free to build what they like. We released the first version of Downstream in the summer of 2024.
+              Our second title was <a href="https://www.blockchaingamer.biz/features/opinions/26579/playmint-onchain-autonomous-worlds-downstream/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Downstream</a>, an ambitious on-chain game that allowed anyone playing to add code to expand the game-world for every player inside it. Roblox had built a platform on a similar idea, but their centralised approach meant that the games there were creatively and commercially limited by what Roblox wanted to see on their platform. Downstream was more like the internet: a protocol that no one owned where people were free to build what they like. We released the first version of Downstream in the summer of 2024.
             </p>
 
             <p>
-              While Downstream fulfilled our architectural goals, its gameplay was limited to the speed of the blockchain, which is a lot slower than a typical game server. To address this, we invented a technology called Playerchains, which let the players themselves become a blockchain using a peer-to-peer DAG consensus system. It was a trustless way of creating multiplayer without a server and worked perfectly in our proof-of-concept game Space Shooter.
+              While Downstream fulfilled our architectural goals, its gameplay was limited to the speed of the blockchain, which is a lot slower than a typical game server. To address this, we invented a technology called <a href="https://medium.com/@david.amor/why-weve-built-playerchains-6612c409ab2d" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Playerchains</a>, which let the players themselves become a blockchain using a peer-to-peer DAG consensus system. It was a trustless way of creating multiplayer without a server and worked perfectly in our proof-of-concept game Space Shooter.
             </p>
 
             <p>
