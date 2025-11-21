@@ -23,7 +23,7 @@ const Index = () => {
         <article className="prose prose-lg max-w-none">
           <div className="space-y-6 text-foreground/90 leading-relaxed">
             <p>
-              Playmint was founded in 2021 to explore how decentralised technologies like blockchains could be used to create a new kind of videogame.
+              Playmint was founded in 2021, to explore how decentralised technologies like blockchains could be used to create a new kind of videogame.
             </p>
 
             <p>
