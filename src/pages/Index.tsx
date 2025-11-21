@@ -1,5 +1,7 @@
 import heroImage from "@/assets/playmint-hero.avif";
 import logoImage from "@/assets/playmint-logo-small.avif";
+import cryptImage from "@/assets/the-crypt-game.avif";
+import downstreamImage from "@/assets/downstream-game.avif";
 const Index = () => {
   return <div className="min-h-screen bg-background">
       {/* Hero Section */}
@@ -30,6 +32,13 @@ const Index = () => {
               Our first published title was a dungeon game called <a href="https://www.youtube.com/watch?v=BEEmhrM6YdQ" target="_blank" rel="noopener noreferrer" className="text-primary underline decoration-2 underline-offset-2 hover:decoration-primary/70">The Crypt</a>, which proved to ourselves and the world that a game could run on a programmable blockchain. It was more popular than we could have hoped and gave us conviction to follow the path further. We identified that cryptography techniques such as <a href="https://paragraph.com/@5p0rt5beard/client-side-proofs" target="_blank" rel="noopener noreferrer" className="text-primary underline decoration-2 underline-offset-2 hover:decoration-primary/70">client-side proofs</a> could be used to safely offload work from the blockchain itself.
             </p>
 
+            <figure className="my-8 rounded-lg overflow-hidden border border-border">
+              <img src={cryptImage} alt="The Crypt game screenshot" className="w-full h-auto" />
+              <figcaption className="text-sm text-muted-foreground text-center py-3 px-4 bg-muted/30">
+                The Crypt - A fully on-chain dungeon game running on a programmable blockchain
+              </figcaption>
+            </figure>
+
             <p>
               Avoiding the scams and hustle of much of what we saw in the world of crypto, we instead shared ideas with the other nerds in the space, working on ideas the world had never seen before.
             </p>
@@ -37,6 +46,13 @@ const Index = () => {
             <p>
               Our second title was <a href="https://www.blockchaingamer.biz/features/opinions/26579/playmint-onchain-autonomous-worlds-downstream/" target="_blank" rel="noopener noreferrer" className="text-primary underline decoration-2 underline-offset-2 hover:decoration-primary/70">Downstream</a>, an ambitious on-chain game that allowed anyone playing to add code to expand the game-world for every player inside it. Roblox had built a platform on a similar idea, but their centralised approach meant that the games there were creatively and commercially limited by what Roblox wanted to see on their platform. Downstream was more like the internet: a protocol that no one owned where people were free to build what they like. We released the first version of Downstream in the summer of 2024.
             </p>
+
+            <figure className="my-8 rounded-lg overflow-hidden border border-border">
+              <img src={downstreamImage} alt="Downstream game screenshot" className="w-full h-auto" />
+              <figcaption className="text-sm text-muted-foreground text-center py-3 px-4 bg-muted/30">
+                Downstream - An on-chain game where players can add code to expand the game-world for everyone
+              </figcaption>
+            </figure>
 
             <p>
               While Downstream fulfilled our architectural goals, its gameplay was limited to the speed of the blockchain, which is a lot slower than a typical game server. To address this, we invented a technology called <a href="https://medium.com/@david.amor/why-weve-built-playerchains-6612c409ab2d" target="_blank" rel="noopener noreferrer" className="text-primary underline decoration-2 underline-offset-2 hover:decoration-primary/70">Playerchains</a>, which let the players themselves become a blockchain using a peer-to-peer DAG consensus system. It was a trustless way of creating multiplayer without a server and worked perfectly in our proof-of-concept game Space Shooter.
