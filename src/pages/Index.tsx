@@ -1,121 +1,73 @@
-import heroImage from "@/assets/hero-image.png";
-import { Card, CardContent } from "@/components/ui/card";
-import { ExternalLink } from "lucide-react";
+import heroImage from "@/assets/playmint-hero.avif";
+import logoImage from "@/assets/playmint-logo-small.avif";
 
 const Index = () => {
-  const companyLinks = [
-    { emoji: "🏢", title: "Company Information", href: "#" },
-    { emoji: "📊", title: "Investment", href: "#" },
-    { emoji: "🎓", title: "Recruitment", href: "#" },
-    { emoji: "📕", title: "The Story So Far - Sept 2024", href: "#" },
-  ];
-
-  const gameLinks = [
-    { emoji: "😬", title: "WhatNext", href: "#" },
-    { emoji: "🔵", title: "Marbles GO!", href: "#" },
-    { emoji: "🚀", title: "Space Shooter", href: "#" },
-    { emoji: "🎮", title: "Downstream", href: "#" },
-  ];
-
   return (
     <div className="min-h-screen bg-background">
       {/* Hero Section */}
-      <header className="relative overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-b from-background/80 to-background z-10" />
+      <header className="relative overflow-hidden border-b border-border">
+        <div className="absolute inset-0 bg-gradient-to-b from-transparent via-background/50 to-background z-10" />
         <img
           src={heroImage}
-          alt="Playmint Gaming"
-          className="w-full h-[300px] md:h-[400px] object-cover"
+          alt="Playmint"
+          className="w-full h-[200px] md:h-[300px] object-cover opacity-60"
         />
-        <div className="absolute inset-0 z-20 flex items-center justify-center">
-          <div className="text-center px-4">
-            <div className="mb-4 flex justify-center">
-              <div className="w-20 h-20 bg-white rounded-2xl shadow-lg flex items-center justify-center">
-                <div className="text-4xl">⚡</div>
-              </div>
-            </div>
-            <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
-              Playmint
-            </h1>
-          </div>
+        <div className="absolute inset-0 z-20 flex flex-col items-center justify-center">
+          <img 
+            src={logoImage} 
+            alt="Playmint Logo" 
+            className="w-16 h-16 md:w-20 md:h-20 mb-4 rounded-xl shadow-lg"
+          />
+          <h1 className="text-4xl md:text-6xl font-bold text-foreground tracking-tight">
+            Playmint
+          </h1>
         </div>
       </header>
 
       {/* Main Content */}
-      <main className="max-w-4xl mx-auto px-4 py-12 md:py-16">
-        {/* Tagline */}
-        <div className="mb-16 text-center">
-          <p className="text-xl md:text-2xl text-foreground border-l-4 border-accent pl-4 inline-block text-left">
-            We're games industry veterans building decentralised games.
-          </p>
-        </div>
+      <main className="max-w-3xl mx-auto px-6 py-12 md:py-20">
+        <article className="prose prose-lg max-w-none">
+          <div className="space-y-6 text-foreground/90 leading-relaxed">
+            <p>
+              Playmint was founded in 2021, to explore how decentralised technologies like blockchains could be used to create a new kind of videogame.
+            </p>
 
-        {/* Company Section */}
-        <section className="mb-16">
-          <h2 className="text-2xl font-bold mb-6 flex items-center gap-2">
-            <span className="text-2xl">👔</span> Company
-          </h2>
-          <div className="grid gap-3">
-            {companyLinks.map((link) => (
-              <Card
-                key={link.title}
-                className="group hover:shadow-lg transition-all duration-200 hover:border-accent/50 cursor-pointer"
-              >
-                <CardContent className="p-4">
-                  <a
-                    href={link.href}
-                    className="flex items-center justify-between"
-                  >
-                    <div className="flex items-center gap-3">
-                      <span className="text-xl">{link.emoji}</span>
-                      <span className="text-lg group-hover:text-accent transition-colors">
-                        {link.title}
-                      </span>
-                    </div>
-                    <ExternalLink className="w-4 h-4 text-muted-foreground group-hover:text-accent transition-colors" />
-                  </a>
-                </CardContent>
-              </Card>
-            ))}
-          </div>
-        </section>
+            <p>
+              Around that time games were being built that used a blockchain token as the technology behind in-game currencies and game items. We wanted to go further with that idea and asked whether it was possible to put not just game items but the games themselves on a blockchain. Could we create the gaming equivalent of Bitcoin: created by someone but owned by no-one, free from centralised control, permanent and immutable?
+            </p>
 
-        {/* Games Section */}
-        <section>
-          <h2 className="text-2xl font-bold mb-6 flex items-center gap-2">
-            <span className="text-2xl">🎮</span> Games
-          </h2>
-          <div className="grid gap-3">
-            {gameLinks.map((link) => (
-              <Card
-                key={link.title}
-                className="group hover:shadow-lg transition-all duration-200 hover:border-accent/50 cursor-pointer"
-              >
-                <CardContent className="p-4">
-                  <a
-                    href={link.href}
-                    className="flex items-center justify-between"
-                  >
-                    <div className="flex items-center gap-3">
-                      <span className="text-xl">{link.emoji}</span>
-                      <span className="text-lg group-hover:text-accent transition-colors">
-                        {link.title}
-                      </span>
-                    </div>
-                    <ExternalLink className="w-4 h-4 text-muted-foreground group-hover:text-accent transition-colors" />
-                  </a>
-                </CardContent>
-              </Card>
-            ))}
+            <p>
+              Our first published title was a dungeon game called The Crypt, which proved to ourselves and the world that a game could run on a programmable blockchain. It was more popular than we could have hoped and gave us conviction to follow the path further. We identified that cryptography techniques such as zk-proofs could be used to safely offload work from the blockchain itself.
+            </p>
+
+            <p>
+              Avoiding the scams and hustle of much of what we saw in the world of crypto, we instead shared ideas with the other nerds in the space, working on ideas the world had never seen before.
+            </p>
+
+            <p>
+              Our second title was Downstream, an ambitious on-chain game that allowed anyone playing to add code to expand the game-world for every player inside it. Roblox had built a platform on a similar idea, but their centralised approach meant that the games there were creatively and commercially limited by what Roblox wanted to see on their platform. Downstream was more like the internet: a protocol that no one owned where people were free to build what they like. We released the first version of Downstream in the summer of 2024.
+            </p>
+
+            <p>
+              While Downstream fulfilled our architectural goals, its gameplay was limited to the speed of the blockchain, which is a lot slower than a typical game server. To address this, we invented a technology called Playerchains, which let the players themselves become a blockchain using a peer-to-peer DAG consensus system. It was a trustless way of creating multiplayer without a server and worked perfectly in our proof-of-concept game Space Shooter.
+            </p>
+
+            <p>
+              As we look back on these projects, it's notable that in the few places where we used a web2 service like imgur or Azure, the game has started to break, but the game code, the players and the worlds they created will all live on forever. A testament to the ethos we were striving for.
+            </p>
+
+            <p className="font-medium">
+              In late 2025 Playmint was acquired by the world's leading on-chain game infrastructure company, Cartridge, a team that shared the philosophy and ambition that Playmint was with in 2021.
+            </p>
           </div>
-        </section>
+        </article>
       </main>
 
       {/* Footer */}
       <footer className="border-t border-border mt-16">
-        <div className="max-w-4xl mx-auto px-4 py-8 text-center">
+        <div className="max-w-3xl mx-auto px-6 py-8 text-center">
           <p className="text-sm text-muted-foreground">
-            © {new Date().getFullYear()} Playmint. All rights reserved.
+            © {new Date().getFullYear()} Playmint
           </p>
         </div>
       </footer>
