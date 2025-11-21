@@ -71,7 +71,7 @@ const Index = () => {
             </p>
 
             <p className="font-medium">
-              In late 2025 Playmint was acquired by the world's leading on-chain game infrastructure company, Cartridge, a team that shared the philosophy and ambition that Playmint was with in 2021.
+              In late 2025 Playmint was acquired by the world's leading on-chain game infrastructure company, <a href="https://cartridge.gg" target="_blank" rel="noopener noreferrer" className="text-primary underline decoration-2 underline-offset-2 hover:decoration-primary/70">Cartridge</a>, a team that shared the philosophy and ambition that Playmint was with in 2021.
             </p>
           </div>
         </article>
