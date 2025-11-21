@@ -2,6 +2,7 @@ import heroImage from "@/assets/playmint-hero.avif";
 import logoImage from "@/assets/playmint-logo-small.avif";
 import cryptImage from "@/assets/the-crypt-game.avif";
 import downstreamImage from "@/assets/downstream-game.avif";
+import spaceShooterImage from "@/assets/space-shooter-game.webp";
 const Index = () => {
   return <div className="min-h-screen bg-background">
       {/* Hero Section */}
@@ -57,6 +58,13 @@ const Index = () => {
             <p>
               While Downstream fulfilled our architectural goals, its gameplay was limited to the speed of the blockchain, which is a lot slower than a typical game server. To address this, we invented a technology called <a href="https://medium.com/@david.amor/why-weve-built-playerchains-6612c409ab2d" target="_blank" rel="noopener noreferrer" className="text-primary underline decoration-2 underline-offset-2 hover:decoration-primary/70">Playerchains</a>, which let the players themselves become a blockchain using a peer-to-peer DAG consensus system. It was a trustless way of creating multiplayer without a server and worked perfectly in our proof-of-concept game Space Shooter.
             </p>
+
+            <figure className="my-8 rounded-lg overflow-hidden border border-border">
+              <img src={spaceShooterImage} alt="Space Shooter game screenshot" className="w-full h-auto" />
+              <figcaption className="text-sm text-muted-foreground text-center py-3 px-4 bg-muted/30">
+                Space Shooter - Powered by Playerchains, a peer-to-peer DAG consensus system for trustless multiplayer
+              </figcaption>
+            </figure>
 
             <p>
               As we look back on these projects, it's notable that in the few places where we used a web2 service like imgur or Azure, the game has started to break, but the game code, the players and the worlds they created will all live on forever. A testament to the ethos we were striving for.
