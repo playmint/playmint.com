@@ -36,7 +36,7 @@ const Index = () => {
             <figure className="my-8 rounded-lg overflow-hidden border border-border">
               <img src={cryptImage} alt="The Crypt game screenshot" className="w-full h-auto" />
               <figcaption className="text-sm text-muted-foreground text-center py-3 px-4 bg-muted/30">
-                The Crypt - A fully on-chain dungeon game running on a programmable blockchain
+                The Crypt - The world's first fully on-chain co-op multiplayer game.
               </figcaption>
             </figure>
 
