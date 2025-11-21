@@ -1,23 +1,13 @@
 import heroImage from "@/assets/playmint-hero.avif";
 import logoImage from "@/assets/playmint-logo-small.avif";
-
 const Index = () => {
-  return (
-    <div className="min-h-screen bg-background">
+  return <div className="min-h-screen bg-background">
       {/* Hero Section */}
       <header className="relative overflow-hidden border-b border-border">
         <div className="absolute inset-0 bg-gradient-to-b from-transparent via-background/50 to-background z-10" />
-        <img
-          src={heroImage}
-          alt="Playmint"
-          className="w-full h-[200px] md:h-[300px] object-cover opacity-60"
-        />
+        <img src={heroImage} alt="Playmint" className="w-full h-[200px] md:h-[300px] object-cover opacity-60" />
         <div className="absolute inset-0 z-20 flex flex-col items-center justify-center">
-          <img 
-            src={logoImage} 
-            alt="Playmint Logo" 
-            className="w-16 h-16 md:w-20 md:h-20 mb-4 rounded-xl shadow-lg"
-          />
+          <img src={logoImage} alt="Playmint Logo" className="w-16 h-16 md:w-20 md:h-20 mb-4 rounded-xl shadow-lg" />
           <h1 className="text-4xl md:text-6xl font-bold text-foreground tracking-tight">
             Playmint
           </h1>
@@ -37,7 +27,7 @@ const Index = () => {
             </p>
 
             <p>
-              Our first published title was a dungeon game called The Crypt, which proved to ourselves and the world that a game could run on a programmable blockchain. It was more popular than we could have hoped and gave us conviction to follow the path further. We identified that cryptography techniques such as zk-proofs could be used to safely offload work from the blockchain itself.
+              Our first published title was a dungeon game called The Crypt, which proved to ourselves and the world that a game could run on a programmable blockchain. It was more popular than we could have hoped and gave us conviction to follow the path further. We identified that cryptography techniques such as client-side proofs could be used to safely offload work from the blockchain itself.
             </p>
 
             <p>
@@ -71,8 +61,6 @@ const Index = () => {
           </p>
         </div>
       </footer>
-    </div>
-  );
+    </div>;
 };
-
 export default Index;
