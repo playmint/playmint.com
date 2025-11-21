@@ -3,6 +3,7 @@ import logoImage from "@/assets/playmint-logo-small.avif";
 import cryptImage from "@/assets/the-crypt-game.avif";
 import downstreamImage from "@/assets/downstream-game.avif";
 import spaceShooterImage from "@/assets/space-shooter-game.webp";
+import { Separator } from "@/components/ui/separator";
 const Index = () => {
   return <div className="min-h-screen bg-background">
       {/* Hero Section */}
@@ -69,6 +70,8 @@ const Index = () => {
             <p>
               As we look back on these projects, it's notable that in the few places where we used a web2 service like imgur or Azure, the game has started to break, but the game code, the players and the worlds they created will all live on forever. A testament to the ethos we were striving for.
             </p>
+
+            <Separator className="my-8" />
 
             <p className="font-medium">
               In late 2025 Playmint was acquired by the world's leading on-chain game infrastructure company, <a href="https://cartridge.gg" target="_blank" rel="noopener noreferrer" className="text-primary underline decoration-2 underline-offset-2 hover:decoration-primary/70">Cartridge</a>, a team that shared the philosophy and ambition that Playmint was with in 2021.
