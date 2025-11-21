@@ -35,7 +35,7 @@ const Index = () => {
 
             <figure className="my-8 rounded-lg overflow-hidden border border-border">
               <img src={cryptImage} alt="The Crypt game screenshot" className="w-full h-auto" />
-              <figcaption className="text-sm text-muted-foreground text-center py-3 px-4 bg-muted/30">
+              <figcaption className="text-sm text-muted-foreground text-center py-3 px-4">
                 The Crypt - The world's first fully on-chain co-op multiplayer game.
               </figcaption>
             </figure>
@@ -50,7 +50,7 @@ const Index = () => {
 
             <figure className="my-8 rounded-lg overflow-hidden border border-border">
               <img src={downstreamImage} alt="Downstream game screenshot" className="w-full h-auto" />
-              <figcaption className="text-sm text-muted-foreground text-center py-3 px-4 bg-muted/30">
+              <figcaption className="text-sm text-muted-foreground text-center py-3 px-4">
                 Downstream - An on-chain game that uses compatibility to allow players to expand the game world for everyone
               </figcaption>
             </figure>
@@ -61,7 +61,7 @@ const Index = () => {
 
             <figure className="my-8 rounded-lg overflow-hidden border border-border">
               <img src={spaceShooterImage} alt="Space Shooter game screenshot" className="w-full h-auto" />
-              <figcaption className="text-sm text-muted-foreground text-center py-3 px-4 bg-muted/30">
+              <figcaption className="text-sm text-muted-foreground text-center py-3 px-4">
                 Space Shooter - Powered by Playerchains, a peer-to-peer DAG consensus system for trustless multiplayer
               </figcaption>
             </figure>
