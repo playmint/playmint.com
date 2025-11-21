@@ -27,7 +27,7 @@ const Index = () => {
             </p>
 
             <p>
-              Around that time, games were being built that used a blockchain token as the technology behind in-game currencies and in-game items. We wanted to go further with that idea and asked whether it was possible to put not just game items but the games themselves on a blockchain. Could we create the gaming equivalent of Bitcoin: created by someone but owned by no-one, free from centralised control, permanent and immutable?
+              Around that time, games were being built that used a blockchain token as the technology behind in-game currencies and in-game items. We wanted to go further with that idea and asked whether it was possible to put the games themselves on a blockchain. Could we create the gaming equivalent of Bitcoin: created by someone but owned by no-one, free from centralised control, permanent and immutable?
             </p>
 
             <p>
@@ -42,7 +42,7 @@ const Index = () => {
             </figure>
 
             <p>
-              Avoiding the scams and hustle of much of what we saw in the world of crypto, we instead shared ideas with the other nerds in the space, working on ideas the world had never seen before.
+              Avoiding the scams and hustle of much of what we saw in the world of crypto, we instead shared ideas with the other nerds in the on-chain gaming space, working on ideas the world had never seen before.
             </p>
 
             <p>
