@@ -9,8 +9,8 @@ const Index = () => {
       <header className="relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-b from-transparent via-background/50 to-background z-10" />
         <img src={heroImage} alt="Playmint" className="w-full h-[200px] md:h-[300px] object-cover opacity-60" />
-        <div className="absolute inset-0 z-20 flex flex-col items-center justify-center">
-          <img src={logoImage} alt="Playmint Logo" className="w-16 h-16 md:w-20 md:h-20 mb-4 rounded-xl shadow-lg" />
+        <div className="absolute inset-0 z-20 flex flex-row items-center justify-center gap-4 md:gap-6">
+          <img src={logoImage} alt="Playmint Logo" className="w-16 h-16 md:w-20 md:h-20 rounded-xl shadow-lg" />
           <h1 className="text-4xl md:text-6xl font-bold text-foreground tracking-tight">
             Playmint
           </h1>
