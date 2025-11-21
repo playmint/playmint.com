@@ -18,7 +18,7 @@ const Index = () => {
       </header>
 
       {/* Main Content */}
-      <main className="max-w-3xl mx-auto px-6 py-4 md:py-6 bg-background">
+      <main className="max-w-3xl mx-auto px-6 pt-2 pb-12 bg-background">
         <article className="prose prose-lg max-w-none">
           <div className="space-y-6 text-foreground/90 leading-relaxed">
             <p>
