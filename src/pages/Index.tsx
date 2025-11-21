@@ -51,7 +51,7 @@ const Index = () => {
             <figure className="my-8 rounded-lg overflow-hidden border border-border">
               <img src={downstreamImage} alt="Downstream game screenshot" className="w-full h-auto" />
               <figcaption className="text-sm text-muted-foreground text-center py-3 px-4 bg-muted/30">
-                Downstream - An on-chain game where players can add code to expand the game-world for everyone
+                Downstream - An on-chain game that uses compatibility to allow players to expand the game world for everyone
               </figcaption>
             </figure>
 
