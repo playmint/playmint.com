@@ -71,6 +71,10 @@ const Index = () => {
               As we look back on these projects, it's notable that in the few places where we used a web2 service like imgur or Azure the game has started to break, but the game code, the players and the worlds they created will all live on forever. A testament to the ethos we were striving for.
             </p>
 
+            <p>
+              Everything you've seen here has been built in the open and is available under open source at <a href="https://github.com/playmint/" target="_blank" rel="noopener noreferrer" className="text-primary underline decoration-2 underline-offset-2 hover:decoration-primary/70">our GitHub page</a>.
+            </p>
+
             <Separator className="my-8" />
 
             <p className="font-medium">
